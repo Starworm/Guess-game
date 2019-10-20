@@ -1,0 +1,119 @@
+@import "../../Commons/commons.css";
+
+.container {
+    border: 2px solid blue;
+    border-radius: 6px;
+    background-color: #ccffff;
+    padding: 15px;
+}
+
+.paper {
+    box-shadow: 0 0.5vh 1.5vh rgba(0,0,0,0.12),
+    0 0.5vh 1vh rgba(0,0,0,0.24);
+}
+
+body {
+
+    justify-content: space-evenly;
+}
+
+.sq {
+    position: absolute;
+    vertical-align: center;
+    align-content: space-between;
+    margin-left: 13px;
+    box-sizing: border-box;
+    border: 2px solid #ff1012;
+    width: 5vw;
+    height: 10vw;
+    font-size: 5vw;
+    color: #000000;
+    text-align: center;
+    line-height: 5vw;
+    user-select: none;
+    transition: 0.5s;
+    font-family: "Comic Sans MS";
+}
+
+.field {
+    position: relative;
+    line-height: normal;
+    margin-left: 41%;
+    width: 5vw;
+    height: 6vw;
+    font-size: 5vw;
+    background-color: #d5d5d5;
+}
+
+.info {
+    position: center;
+    top: -15px;
+    left: 30%;
+    width: 40vw;
+    height: 10vw;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+.count {
+    position: relative;
+    /*top: -10px;*/
+    left: 5%;
+    width: 40vw;
+    height: 10vw;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.topLabel {
+    display: inline-block;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+.winscreen {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 70vmin;
+    font-family: Broadway;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70vmin;
+    color: #0d7a0c;
+    transition: 1.5s;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(135, 228, 223, 0.55);
+}
+
+.losescreen {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 70vmin;
+    font-family: Broadway;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70vmin;
+    color: #e21f1a;
+    transition: 1.5s;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(114, 194, 190, 0.55);
+}
+
+.form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
